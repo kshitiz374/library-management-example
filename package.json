@@ -1,0 +1,27 @@
+{
+  "name": "library-management-example",
+  "version": "1.0.0",
+  "description": "This is a library management API backend for the management of users and the books",
+  "homepage": "https://github.com/kshitiz374/library-management-example#readme",
+  "bugs": {
+    "url": "https://github.com/kshitiz374/library-management-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshitiz374/library-management-example.git"
+  },
+  "license": "ISC",
+  "author": "kshitiz tiwari",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
